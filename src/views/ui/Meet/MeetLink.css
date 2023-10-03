@@ -1,0 +1,103 @@
+  /* App.css */
+
+.App {
+  text-align:center; /* Align content horizontally in the center */
+  justify-content:center; /* Center content vertically */
+  align-items:center; /* Center content horizontally */
+  min-height: 50vh; /* Ensure the form takes at least the full viewport height */
+  width: 100%;
+  background-color: #c8e0d3;
+}
+
+.centered-form {
+  text-align: justify;
+  background-color: rgb(56, 128, 89); /* Add background color or any other styling */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px; /* Set your desired maximum width */
+   /* Ensure the form takes the full available width */
+  margin: 0 auto; /* Center horizontally within the maximum width */
+}
+.tab{
+  tab-size: 1;
+}
+
+  .h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .left-image{
+    max-width: 200px; /* Adjust the maximum width as needed */
+    max-height: 200px; /* Adjust the maximum height as needed */
+  }
+
+  .img{
+    display: flex; /* Horizontal centering */
+    align-items: left; /* Vertical centering */
+    justify-content: center;
+    margin-right: 0px; /* Adjust margin as needed */
+  }
+  
+  /* Style for input labels */
+  .label {
+    font-weight: bold;
+    color: #ccc;
+    font-size: 18px;
+  }
+  
+  /* Style for input fields */
+  input[type="text"],
+  input[type="date"],
+  input[type="time"] {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the "Generate" button */
+  .button {
+    background-color: rgb(34, 47, 188); /* Blue color for the button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the "Generate" button on hover */
+  .button:hover {
+    background-color:#3cf891; /* Darker blue color on hover */
+  }
+  
+  /* Style for the "Post" button */
+  .button[type="submit"] {
+    float:left;
+    background-color: #28a745; /* Green color for the button */
+  }
+  
+  /* Style for the "Post" button on hover */
+  .button[type="submit"]:hover {
+    background-color: #1e7e34; /* Darker green color on hover */
+  }
+  
+  /* Style for the span between time inputs */
+ .span {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #ccc;
+    font-size: 18px;
+  }
+.post{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100px;
+}
+
+
+  

@@ -1,0 +1,72 @@
+/* ResetPassword.css */
+.reset-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c8e0d3;
+  }
+  .rp{
+    margin-right: 130px;
+padding: 2px;
+  }
+  .rp1{
+    margin-right: 100px;
+    padding: 2px;
+  }
+  .reset-password-form {
+    background-color: rgb(56, 128, 89);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 400px; /* Set the maximum width */
+    width: 90%; /* Adjust the width as needed */
+    height: 70%;
+    margin: 0 auto; /* Center-align the container horizontally */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .reset-icon
+  {
+    width: 40%; /* Adjust the size as needed */
+    margin-bottom: 10px;
+  }
+  .reset-password-form h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .reset-password-form label {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .reset-password-form input[type="password"] {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .rbtn {
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(34, 47, 188);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .reset-password-form button:hover {
+    background-color: #030906;
+  }
+  
+  .reset-password-form p {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+  }
+  

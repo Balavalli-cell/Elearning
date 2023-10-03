@@ -1,0 +1,139 @@
+/* src/CoursePages/Page6.css */
+
+/* Container for the entire page */
+.page-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap elements to next line if needed */
+  background-color: #fff; /* Background color for the page container */
+  padding: 20px;
+  border: 1px solid #fff; /* Add a border around the page container */
+  border-radius: 5px; /* Rounded corners for the page container */
+}
+.course-title {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+/* Left content container (h1, p) */
+.content-left {
+  flex: 1;
+  padding: 20px; /* Add some padding for spacing */
+  background-color: #fff; /* Background color for left content */
+  border-radius: 5px; /* Rounded corners for left content */
+}
+
+/* Right image container */
+.image-right {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  height: 400px;
+}
+
+.image {
+  height: 400px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+/* Style the "View Course" link */
+.join-course-container {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.join-course {
+  display: inline-block;
+  background-color: #388059;
+  color: #fff;
+  font-weight: 100;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.join-course:hover {
+  background-color: #fff;
+  font-weight: 3px ;
+  color: black;
+  border: 3px solid #388059 ;
+}
+
+/* Section Title Buttons */
+.section-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: #bff7d8;
+}
+
+.section-buttons button {
+  background-color: #bff7d8;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  margin: 0;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+
+  transition: background-color 0.4s ease, color 0.4s ease; /* Add transitions for background color and text color */
+}
+
+/* Style active section title button with underline */
+.section-buttons button.active {
+  color: #fff; /* Text color when clicked */
+  background-color: #388059;
+  text-decoration: underline; /* Underline when clicked */
+  transition: background-color 0.4s ease, color 0.4s ease; /* Add transitions for background color and text color */
+}
+
+/* ... (existing styles) ... */
+/* Lists */
+.section-list {
+  display: none; /* Initially hide lists */
+  width: 90%; /* Ensure lists take full width */
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #388059;
+  border-radius: 40px;
+  transition: background-color 0.4s ease, color 0.4s ease; /* Add transitions for background color and text color */
+}
+
+/* Show lists when their respective button is active */
+.show-list .section-list {
+  display: block;
+  transition: display 0.4s ease; /* Add a transition effect for display property */
+}
+
+.section-title {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color:#fff;
+}
+
+/* Style list items */
+.section-list ul {
+  list-style: square;
+  color: #fff;
+  padding-left: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Show the active section list */
+.section-list.active {
+  display: block;
+}
+
+.section-list li {
+  margin-top: 5px;
+  transition: color 0.4s ease; /* Add transition for text color */
+}
